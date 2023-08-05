@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns3:systemMetadata xmlns:ns2="http://ns.dataone.org/service/types/v1" xmlns:ns3="http://ns.dataone.org/service/types/v2.0">
+    <serialVersion>16</serialVersion>
+    <identifier>urn:uuid:8de69010-f2de-43c5-8849-f90850ccc821</identifier>
+    <formatId>text/csv</formatId>
+    <size>198519</size>
+    <checksum algorithm="SHA-256">69ecea8ac650251751eda777d8abac6c0c4fdff19d08f1aae28e277a2223fb72</checksum>
+    <submitter>http://orcid.org/0000-0001-8888-547X</submitter>
+    <rightsHolder>http://orcid.org/0000-0001-8888-547X</rightsHolder>
+    <accessPolicy>
+        <allow>
+            <subject>http://orcid.org/0000-0003-2259-042X</subject>
+            <permission>read</permission>
+            <permission>write</permission>
+            <permission>changePermission</permission>
+        </allow>
+        <allow>
+            <subject>https://orcid.org/0000-0003-2259-042X</subject>
+            <permission>read</permission>
+            <permission>write</permission>
+            <permission>changePermission</permission>
+        </allow>
+        <allow>
+            <subject>CN=arctic-data-admins,DC=dataone,DC=org</subject>
+            <permission>read</permission>
+            <permission>write</permission>
+            <permission>changePermission</permission>
+        </allow>
+        <allow>
+            <subject>public</subject>
+            <permission>read</permission>
+        </allow>
+    </accessPolicy>
+    <replicationPolicy replicationAllowed="true" numberReplicas="3"/>
+    <archived>false</archived>
+    <dateUploaded>2021-08-31T20:14:27.228+00:00</dateUploaded>
+    <dateSysMetadataModified>2021-11-20T01:29:09.059+00:00</dateSysMetadataModified>
+    <originMemberNode>urn:node:ARCTIC</originMemberNode>
+    <authoritativeMemberNode>urn:node:ARCTIC</authoritativeMemberNode>
+    <replica>
+        <replicaMemberNode>urn:node:ARCTIC</replicaMemberNode>
+        <replicationStatus>completed</replicationStatus>
+        <replicaVerified>2021-08-31T20:17:50.297+00:00</replicaVerified>
+    </replica>
+    <replica>
+        <replicaMemberNode>urn:node:mnUNM1</replicaMemberNode>
+        <replicationStatus>completed</replicationStatus>
+        <replicaVerified>2021-09-14T15:43:26.584+00:00</replicaVerified>
+    </replica>
+    <replica>
+        <replicaMemberNode>urn:node:mnUCSB1</replicaMemberNode>
+        <replicationStatus>completed</replicationStatus>
+        <replicaVerified>2021-09-14T15:43:31.051+00:00</replicaVerified>
+    </replica>
+    <replica>
+        <replicaMemberNode>urn:node:UIC</replicaMemberNode>
+        <replicationStatus>failed</replicationStatus>
+        <replicaVerified>2021-09-26T16:43:06.204+00:00</replicaVerified>
+    </replica>
+    <replica>
+        <replicaMemberNode>urn:node:mnORC1</replicaMemberNode>
+        <replicationStatus>completed</replicationStatus>
+        <replicaVerified>2021-11-24T08:00:41.140+00:00</replicaVerified>
+    </replica>
+    <fileName>spectralalbedo_mosaic_20200914_pm3_KINDER_processedv0.csv</fileName>
+</ns3:systemMetadata>

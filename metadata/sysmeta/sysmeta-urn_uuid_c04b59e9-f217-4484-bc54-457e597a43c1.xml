@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns3:systemMetadata xmlns:ns2="http://ns.dataone.org/service/types/v1" xmlns:ns3="http://ns.dataone.org/service/types/v2.0">
+    <serialVersion>10</serialVersion>
+    <identifier>urn:uuid:c04b59e9-f217-4484-bc54-457e597a43c1</identifier>
+    <formatId>application/x-python</formatId>
+    <size>20038</size>
+    <checksum algorithm="SHA-256">e38f00c467e8c5176bf772aa2e4b68c822f99b801def7b967b263170278ffefd</checksum>
+    <submitter>http://orcid.org/0000-0001-8888-547X</submitter>
+    <rightsHolder>http://orcid.org/0000-0002-0973-9982</rightsHolder>
+    <accessPolicy>
+        <allow>
+            <subject>CN=arctic-data-admins,DC=dataone,DC=org</subject>
+            <permission>read</permission>
+            <permission>write</permission>
+            <permission>changePermission</permission>
+        </allow>
+        <allow>
+            <subject>https://orcid.org/0000-0003-2259-042X</subject>
+            <permission>read</permission>
+            <permission>write</permission>
+            <permission>changePermission</permission>
+        </allow>
+        <allow>
+            <subject>http://orcid.org/0000-0003-2259-042X</subject>
+            <permission>read</permission>
+            <permission>write</permission>
+            <permission>changePermission</permission>
+        </allow>
+        <allow>
+            <subject>public</subject>
+            <permission>read</permission>
+        </allow>
+    </accessPolicy>
+    <replicationPolicy replicationAllowed="true" numberReplicas="3"/>
+    <archived>false</archived>
+    <dateUploaded>2021-08-31T20:14:40.947+00:00</dateUploaded>
+    <dateSysMetadataModified>2022-03-24T14:31:34.560+00:00</dateSysMetadataModified>
+    <originMemberNode>urn:node:ARCTIC</originMemberNode>
+    <authoritativeMemberNode>urn:node:ARCTIC</authoritativeMemberNode>
+    <fileName>alb_utils.py</fileName>
+</ns3:systemMetadata>

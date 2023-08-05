@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns3:systemMetadata xmlns:ns2="http://ns.dataone.org/service/types/v1" xmlns:ns3="http://ns.dataone.org/service/types/v2.0">
+    <serialVersion>19</serialVersion>
+    <identifier>urn:uuid:61e7a9ff-b497-4a90-8a16-2bfa3413af0e</identifier>
+    <formatId>text/csv</formatId>
+    <size>56706</size>
+    <checksum algorithm="SHA-256">f8f0737b438e28952ba3662f0989b3eb6473db2295e9dccfb29d916edc98c5c0</checksum>
+    <submitter>http://orcid.org/0000-0001-8888-547X</submitter>
+    <rightsHolder>http://orcid.org/0000-0001-8888-547X</rightsHolder>
+    <accessPolicy>
+        <allow>
+            <subject>public</subject>
+            <permission>read</permission>
+        </allow>
+        <allow>
+            <subject>CN=arctic-data-admins,DC=dataone,DC=org</subject>
+            <permission>read</permission>
+            <permission>write</permission>
+            <permission>changePermission</permission>
+        </allow>
+        <allow>
+            <subject>https://orcid.org/0000-0003-2259-042X</subject>
+            <permission>read</permission>
+            <permission>write</permission>
+            <permission>changePermission</permission>
+        </allow>
+        <allow>
+            <subject>http://orcid.org/0000-0003-2259-042X</subject>
+            <permission>read</permission>
+            <permission>write</permission>
+            <permission>changePermission</permission>
+        </allow>
+    </accessPolicy>
+    <replicationPolicy replicationAllowed="true" numberReplicas="3"/>
+    <archived>false</archived>
+    <dateUploaded>2021-08-31T20:14:19.545+00:00</dateUploaded>
+    <dateSysMetadataModified>2021-11-20T01:29:26.179+00:00</dateSysMetadataModified>
+    <originMemberNode>urn:node:ARCTIC</originMemberNode>
+    <authoritativeMemberNode>urn:node:ARCTIC</authoritativeMemberNode>
+    <fileName>spectralalbedo_mosaic_20200911_TOBLERONE_processedv0.csv</fileName>
+</ns3:systemMetadata>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns3:systemMetadata xmlns:ns2="http://ns.dataone.org/service/types/v1" xmlns:ns3="http://ns.dataone.org/service/types/v2.0">
+    <serialVersion>19</serialVersion>
+    <identifier>doi:10.18739/A2FT8DK8Z</identifier>
+    <formatId>https://eml.ecoinformatics.org/eml-2.2.0</formatId>
+    <size>4553098</size>
+    <checksum algorithm="SHA-256">0abddc648976532a617de93c2f896a3e715ed173fa663cc27d9112e55854ee7e</checksum>
+    <submitter>http://orcid.org/0000-0003-3515-6710</submitter>
+    <rightsHolder>http://orcid.org/0000-0003-2259-042X</rightsHolder>
+    <accessPolicy>
+        <allow>
+            <subject>http://orcid.org/0000-0003-2259-042X</subject>
+            <permission>read</permission>
+            <permission>write</permission>
+            <permission>changePermission</permission>
+        </allow>
+        <allow>
+            <subject>CN=arctic-data-admins,DC=dataone,DC=org</subject>
+            <permission>read</permission>
+            <permission>write</permission>
+            <permission>changePermission</permission>
+        </allow>
+        <allow>
+            <subject>public</subject>
+            <permission>read</permission>
+        </allow>
+    </accessPolicy>
+    <replicationPolicy replicationAllowed="true" numberReplicas="3"/>
+    <obsoletes>urn:uuid:887cd1e6-8bf2-4d23-97fc-65e55e162f4e</obsoletes>
+    <archived>false</archived>
+    <dateUploaded>2021-11-20T01:10:32.882+00:00</dateUploaded>
+    <dateSysMetadataModified>2021-11-20T01:13:27.583+00:00</dateSysMetadataModified>
+    <originMemberNode>urn:node:ARCTIC</originMemberNode>
+    <authoritativeMemberNode>urn:node:ARCTIC</authoritativeMemberNode>
+    <replica>
+        <replicaMemberNode>urn:node:ARCTIC</replicaMemberNode>
+        <replicationStatus>completed</replicationStatus>
+        <replicaVerified>2021-11-20T01:15:10.867+00:00</replicaVerified>
+    </replica>
+    <replica>
+        <replicaMemberNode>urn:node:CN</replicaMemberNode>
+        <replicationStatus>completed</replicationStatus>
+        <replicaVerified>2021-11-20T01:15:10.902+00:00</replicaVerified>
+    </replica>
+    <replica>
+        <replicaMemberNode>urn:node:UIC</replicaMemberNode>
+        <replicationStatus>completed</replicationStatus>
+        <replicaVerified>2021-12-12T15:51:03.547+00:00</replicaVerified>
+    </replica>
+    <replica>
+        <replicaMemberNode>urn:node:KNB</replicaMemberNode>
+        <replicationStatus>completed</replicationStatus>
+        <replicaVerified>2021-12-23T23:17:37.485+00:00</replicaVerified>
+    </replica>
+    <replica>
+        <replicaMemberNode>urn:node:mnUNM1</replicaMemberNode>
+        <replicationStatus>completed</replicationStatus>
+        <replicaVerified>2022-01-07T14:13:38.051+00:00</replicaVerified>
+    </replica>
+    <fileName>Spectral_albedo_measurements_of_the_sea.xml</fileName>
+</ns3:systemMetadata>
